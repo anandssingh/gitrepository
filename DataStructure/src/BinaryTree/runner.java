@@ -11,6 +11,10 @@ public class runner {
 		System.out.println("hello world");
 		
 		System.out.println("hello world");
+		
+		System.out.println("hello world");
+		
+		System.out.println("hello world");
 	}
 
 }
