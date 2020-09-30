@@ -2,16 +2,16 @@ package com.luv2code.springdemo;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-public class HelloSpringApp {
+public class SetterDemoApp {
 
 	public static void main(String[] args) {
-		
+
 		
 		// load spring config file
 		ClassPathXmlApplicationContext  context = new ClassPathXmlApplicationContext("applicationContext.xml");
 		
 		// retrive spring bean file
-		Coach thecoach = context.getBean("myCoach", Coach.class);
+		Coach thecoach = context.getBean("myCricketCoach", Coach.class);
 		
 		// call the method on beans
 		System.out.println(thecoach.getDailyWorkout());
@@ -21,6 +21,7 @@ public class HelloSpringApp {
 		//close context
 		context.close();
 
+		
 	}
 
 }
