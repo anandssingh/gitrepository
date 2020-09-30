@@ -9,6 +9,15 @@
 
     <!-- Define your beans here -->
     
+    
+    <bean id="myCoach" class = "com.luv2code.springdemo.BaseballCoach">
+    
+    
+    
+    </bean>
+    
+    
+    
 </beans>
 
 
