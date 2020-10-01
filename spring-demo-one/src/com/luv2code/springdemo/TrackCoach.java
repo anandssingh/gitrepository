@@ -25,5 +25,30 @@ public class TrackCoach implements Coach {
 		// TODO Auto-generated method stub
 		return "Just do it " + fortuneService.getFortune();
 	}
+	
+	
+	
+	public void doMyStartUpStuff()
+	{
+		System.out.println("inside my doMyStartUpStuff");
+	}
+	
+	public void doMyCleanUpStuff()
+	{
+		System.out.println("inside my doMyCleanUpStuff");
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 }

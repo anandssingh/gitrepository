@@ -4,6 +4,8 @@ public class CricketCoach implements Coach {
 	
 	
 	private FortuneService fortuneService;
+	private String email;
+	private String team;
 	
 	// create No arg constructor
 	public CricketCoach (){
@@ -14,6 +16,26 @@ public class CricketCoach implements Coach {
 	public void setFortuneService(FortuneService fortuneService) {
 		System.out.println("CricketCoach: inside Setter method - setFortuneService");
 		this.fortuneService = fortuneService;
+	}
+
+	public void setEmail(String email) {
+		System.out.println("CricketCoach: inside Setter method - setEmail");
+		this.email = email;
+	}
+
+	public void setTeam(String team) {
+		System.out.println("CricketCoach: inside Setter method - setTeam");
+		this.team = team;
+	}
+	
+	
+	
+	public String getEmail() {
+		return email;
+	}
+
+	public String getTeam() {
+		return team;
 	}
 
 	@Override
