@@ -1,6 +1,8 @@
-package com.luv2code.springdemo;
+package com.luv2code.springdemo.main;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.luv2code.springdemo.TennisCoach;
 
 public class BeanScopeDemoApp {
 
@@ -8,11 +10,11 @@ public class BeanScopeDemoApp {
 		
 		
 				// load spring config file
-				ClassPathXmlApplicationContext  context = new ClassPathXmlApplicationContext("beanScope-applicationContext.xml");
+				ClassPathXmlApplicationContext  context = new ClassPathXmlApplicationContext("applicationContext.xml");
 				
 				// retrive spring bean file
-				Coach thecoach = context.getBean("myCoach", Coach.class);
-				Coach alphacoach = context.getBean("myCoach", Coach.class);
+				TennisCoach thecoach = context.getBean("tennisCoach", TennisCoach.class);
+				TennisCoach alphacoach = context.getBean("tennisCoach", TennisCoach.class);
 				
 
 				boolean result = (thecoach == alphacoach);

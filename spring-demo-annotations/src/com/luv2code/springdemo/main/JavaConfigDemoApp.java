@@ -1,6 +1,9 @@
-package com.luv2code.springdemo;
+package com.luv2code.springdemo.main;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import com.luv2code.springdemo.SportConfig;
+import com.luv2code.springdemo.TennisCoach;
 
 public class JavaConfigDemoApp {
 

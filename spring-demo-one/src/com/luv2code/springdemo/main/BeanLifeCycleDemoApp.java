@@ -1,6 +1,8 @@
-package com.luv2code.springdemo;
+package com.luv2code.springdemo.main;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.luv2code.springdemo.Coach;
 
 public class BeanLifeCycleDemoApp {
 
