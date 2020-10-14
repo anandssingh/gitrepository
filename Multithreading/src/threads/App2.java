@@ -8,7 +8,6 @@ public class App2 {
 		
 	String Name = Thread.currentThread().getName();
 		
-		
 		System.out.println("Thread " + Name );
 		
 		
